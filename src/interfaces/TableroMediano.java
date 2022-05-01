@@ -82,7 +82,7 @@ public class TableroMediano extends Tablero implements ITableros {
 	@Override
 	public boolean validarFin(Jugador jugador) {
 		if(jugador.getPosicion() == this.MAX_CUADROS){
-			System.out.println(this.getJugada()+ " El jugador N."+ jugador.getNumeroJugador()+" llego al cuadro "+ this.MAX_CUADROS + " a Ganado!!");
+			System.out.println(this.getJugada()+ " El jugador N."+ jugador.getNumeroJugador()+" llego al cuadro "+ this.MAX_CUADROS + " ha Ganado!!");
 			System.out.println((this.getJugada()+1)+" Fin" );	
 			return false;
 		}else if(jugador.getPosicion() > this.MAX_CUADROS){
